@@ -19,6 +19,7 @@ dependencies:
   provider: ^6.0.5
   google_fonts: ^6.1.0
   flutter_native_splash: ^2.3.5
+  get: ^4.6.6
 
 
 dev_dependencies:
@@ -29,12 +30,12 @@ dev_dependencies:
 flutter_native_splash:
   color: "#f7f6f1"
   color_dark: "#272727"
-  image: assets/images/gymsplash.png
-  image_dark: assets/images/gymsplash.png
+  image: assets/images/gotogymBOY.png
+  image_dark: assets/images/gotogymBOY.png
   fullscreen: true
   android_12:
-   image: assets/images/gymsplash.png
-   image_dark: assets/images/gymsplash.png
+   image: assets/images/gotogymBOY.png
+   image_dark: assets/images/gotogymBOY.png
    icon_backgroud_color: "#f7f6f1"
    icon_backgroud_color_dark: "#272727"
    fullscreen: true
