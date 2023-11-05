@@ -1,7 +1,12 @@
+//genirique text
+const String gLogin = "Login";
+const String gSigneUp = "Signup";
+
+//splash screen text
 const String gAppNAme = "FITnesstTracker";
 const String gAppTagLine =
     "Learn To Get A Better Life Style.\n Free For Everyone";
-
+//on boarding text
 const String gOnBoardingTitle1 = "Welcome to FitU";
 const String gOnBoardingTitle2 = "Begin Your Journey";
 const String gOnBoardingTitle3 = "FitU";
@@ -19,3 +24,6 @@ const gOnBoardingCount2 = "2/5";
 const gOnBoardingCount3 = "3/5";
 const gOnBoardingCount4 = "4/5";
 const gOnBoardingCount5 = "5/5";
+// welcome text
+const String gWelcomeTitle = " Welcome To FitU";
+const String gWelcomeSubTitle = " Let's Make Your Sport Journey Better";

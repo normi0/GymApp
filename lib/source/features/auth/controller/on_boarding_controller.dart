@@ -57,7 +57,7 @@ class OnBoardingController extends GetxController {
       ),
     ),
   ];
-  skip() => controller.jumpToPage(page: 4);
+
   animatedToNexrSlide() {
     int nextpage = controller.currentPage + 1;
     controller.animateToPage(page: nextpage);
@@ -66,4 +66,6 @@ class OnBoardingController extends GetxController {
   void onPageChangeCallback(int activePageIndex) {
     currentPage.value = activePageIndex;
   }
+
+  skip() => controller.jumpToPage(page: 4);
 }

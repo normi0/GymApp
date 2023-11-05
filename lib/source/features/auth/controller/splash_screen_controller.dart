@@ -1,4 +1,5 @@
 import 'package:fitnesstracker/source/features/auth/screens/on_boarding/on_boarding_screens.dart';
+import 'package:fitnesstracker/source/features/auth/screens/welcome/welcome_screen.dart';
 import 'package:get/get.dart';
 
 class SplashScreenController extends GetxController {
@@ -14,7 +15,7 @@ class SplashScreenController extends GetxController {
       const Duration(milliseconds: 5000),
     );
     Get.to(
-      const OnBoardingScreen(),
+      const WelcomeScreen(),
     );
     // ignore: use_build_context_synchronously
     // Navigator.pushReplacement(
