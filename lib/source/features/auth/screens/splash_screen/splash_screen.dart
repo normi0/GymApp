@@ -43,9 +43,9 @@ class SplashScreen extends StatelessWidget {
                       gAppNAme,
                       style: Theme.of(context).textTheme.headlineLarge,
                     ),
-                    Text(
-                      gAppTagLine,
-                      style: Theme.of(context).textTheme.headlineSmall,
+                    const Text(
+                      gAppTagLine, textAlign: TextAlign.center,
+                      // style: Theme.of(context).textTheme.headlineSmall,
                     ),
                   ],
                 ),

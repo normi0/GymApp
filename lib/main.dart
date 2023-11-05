@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
     //   create: (context) => WorkoutData(),
     // child:
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
