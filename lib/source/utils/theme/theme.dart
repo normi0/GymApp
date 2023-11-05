@@ -1,3 +1,5 @@
+import 'package:fitnesstracker/source/utils/theme/widgets_themes/elevated_button_theme.dart';
+import 'package:fitnesstracker/source/utils/theme/widgets_themes/outlined_button_theme.dart';
 import 'package:fitnesstracker/source/utils/theme/widgets_themes/text_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -6,9 +8,18 @@ class AppTheme {
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     textTheme: TtextTheme.lightTextTheme,
-    elevatedButtonTheme: ElevatedButtonThemeData(
-      style: ElevatedButton.styleFrom(),
-    ),
+    outlinedButtonTheme: GOutLinedButtonTheme.lightOutLinedButtonTheme,
+    elevatedButtonTheme: GElevatedButtonTheme.lightElevatedButtonTheme,
+  );
+
+  static ThemeData darkTheme = ThemeData(
+    brightness: Brightness.dark,
+    textTheme: TtextTheme.darckTextTheme,
+    outlinedButtonTheme: GOutLinedButtonTheme.darkOutLinedButtonTheme,
+    elevatedButtonTheme: GElevatedButtonTheme.darkElevatedButtonTheme,
+  );
+}
+//i can need it after 
     // brightness: Brightness.light,
     // primarySwatch: const MaterialColor(
     //   0xff9c27b0,
@@ -25,11 +36,7 @@ class AppTheme {
     //     900: Color(0xff4a148c),
     //   },
     // ),
-  );
 
-  static ThemeData darkTheme = ThemeData(
-    brightness: Brightness.dark,
-    textTheme: TtextTheme.darckTextTheme,
     // primarySwatch: const MaterialColor(
     //   0xff9c27b0,
     //   <int, Color>{
@@ -45,5 +52,3 @@ class AppTheme {
     //     900: Color(0xff4a148c),
     //   },
     // ),
-  );
-}

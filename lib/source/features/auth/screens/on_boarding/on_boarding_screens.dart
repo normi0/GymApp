@@ -48,7 +48,7 @@ class OnBoardingScreen extends StatelessWidget {
               child: const Text(
                 "skip",
                 style: TextStyle(
-                  color: Colors.grey,
+                  color: Colors.white70,
                 ),
               ),
             ),
@@ -58,9 +58,14 @@ class OnBoardingScreen extends StatelessWidget {
                 bottom: 20,
                 child: AnimatedSmoothIndicator(
                   activeIndex: obontroller.currentPage.value,
-                  effect: const WormEffect(
-                    activeDotColor: Color.fromARGB(255, 212, 138, 169),
-                    dotHeight: 5.0,
+                  effect: const ExpandingDotsEffect(
+                    spacing: 8.0,
+                    radius: 4.0,
+                    dotWidth: 12.0,
+                    dotHeight: 10.0,
+                    paintStyle: PaintingStyle.stroke,
+                    strokeWidth: 1.5,
+                    activeDotColor: Color.fromARGB(255, 0, 0, 0),
                   ),
                   count: 5,
                 )),

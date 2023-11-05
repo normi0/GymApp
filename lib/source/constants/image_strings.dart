@@ -12,4 +12,5 @@ const String gOnBoardinImage3 =
 const String gOnBoardinImage4 =
     "assets/images/on_boarding_images/on-boarding-image-5.png";
 
-const String gWelcomeScreenImage = "assets/images/welcome_image/welcome-image";
+const String gWelcomeScreenImage =
+    "assets/images/welcome_images/WelcomeImage.png";
