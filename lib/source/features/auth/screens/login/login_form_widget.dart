@@ -3,7 +3,6 @@ import 'package:fitnesstracker/source/constants/text_string.dart';
 import 'package:fitnesstracker/source/features/auth/screens/forgotepassword/forgot_password.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({

@@ -6,8 +6,8 @@ class ForgotPassword extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var mediaQuery = MediaQuery.of(context);
-    var hight = mediaQuery.size.height;
+    // var mediaQuery = MediaQuery.of(context);
+    // var hight = mediaQuery.size.height;
     return SafeArea(
         child: Scaffold(
       body: SingleChildScrollView(
