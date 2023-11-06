@@ -5,10 +5,12 @@ import 'package:flutter/material.dart';
 class GElevatedButtonTheme {
   GElevatedButtonTheme._();
 
-  static final LightElevatedButtonTheme = ElevatedButtonThemeData(
+  static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      shape: const RoundedRectangleBorder(),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(7),
+      ),
       foregroundColor: gWhitecolor,
       backgroundColor: gDarkcolor,
       side: const BorderSide(
@@ -19,10 +21,12 @@ class GElevatedButtonTheme {
       ),
     ),
   );
-  static final DarkElevatedButtonTheme = ElevatedButtonThemeData(
+  static final darkElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      shape: const RoundedRectangleBorder(),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15),
+      ),
       foregroundColor: gDarkcolor,
       backgroundColor: gWhitecolor,
       side: const BorderSide(

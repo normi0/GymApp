@@ -14,3 +14,5 @@ const gOnBoardingPage2Color = Color.fromARGB(255, 155, 102, 106);
 const gOnBoardingPage3Color = Color.fromARGB(255, 207, 157, 114);
 const gOnBoardingPage4Color = Color.fromARGB(255, 238, 147, 94);
 const gOnBoardingPage5Color = Color.fromARGB(255, 149, 223, 101);
+
+const gwelcomeSlight = Color.fromARGB(255, 112, 151, 223);

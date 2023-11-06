@@ -1,7 +1,10 @@
 //genirique text
 const String gLogin = "Login";
 const String gSigneUp = "Signup";
-
+const String gEmail = "E-mail";
+const String gPassword = "Password";
+const String gForgetPassword = "Forget Password";
+const String gSignInWithGoogle = "Sign-In With Google";
 //splash screen text
 const String gAppNAme = "FITnesstTracker";
 const String gAppTagLine =
@@ -27,3 +30,9 @@ const gOnBoardingCount5 = "5/5";
 // welcome text
 const String gWelcomeTitle = " Welcome To FitU";
 const String gWelcomeSubTitle = " Let's Make Your Sport Journey Better";
+//Login Screen Text
+const String gLoginTitle = " Welcome Back,";
+const String gLoginSubtitle = " Make it fast ,And Get ready To work.";
+const String gRememberMe = " Remember Me?";
+const String gAlreadyHaveAccount = " Already Have An Account";
+const String gDontHaveAccount = " Don't have an Account ?";

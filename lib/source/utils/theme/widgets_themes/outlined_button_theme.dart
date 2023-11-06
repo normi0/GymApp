@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 
 class GOutLinedButtonTheme {
   GOutLinedButtonTheme._();
-  static final LightOutLinedButtonTheme = OutlinedButtonThemeData(
+  static final lightOutLinedButtonTheme = OutlinedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      shape: const RoundedRectangleBorder(),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(7),
+      ),
       foregroundColor: gDarkcolor,
       side: const BorderSide(
         color: gDarkcolor,
@@ -16,9 +18,11 @@ class GOutLinedButtonTheme {
       ),
     ),
   );
-  static final DarkOutLinedButtonTheme = OutlinedButtonThemeData(
+  static final darkOutLinedButtonTheme = OutlinedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      shape: const RoundedRectangleBorder(),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(7),
+      ),
       foregroundColor: gWhitecolor,
       side: const BorderSide(
         color: gWhitecolor,

@@ -8,7 +8,6 @@ import '../../../constants/image_strings.dart';
 
 class OnBoardingController extends GetxController {
   final controller = LiquidController();
-
   RxInt currentPage = 0.obs;
   final pages = [
     OnBoardingPageWidget(

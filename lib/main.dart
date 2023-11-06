@@ -1,4 +1,4 @@
-import 'package:fitnesstracker/source/features/auth/Auth/screens/splash_screen/splash_screen.dart';
+import 'package:fitnesstracker/source/features/auth/screens/splash_screen/splash_screen.dart';
 import 'package:fitnesstracker/source/utils/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
       // debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: const SplashScreen(),
     );
   }
 }
