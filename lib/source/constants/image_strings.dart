@@ -19,3 +19,6 @@ const String gWelcomeScreenImage =
 //login screen images and logo
 const String gLoginImage = "assets/images/login_image/login_image.png";
 const String gGoogleLogoImage = "assets/logos/google_logo.png";
+const String gFaceBookLogoImage = "assets/logos/facebook_logo.png";
+//signup images and logos
+const String gSignUpImage = "assets/images/sign_up_image/signup_image.png";

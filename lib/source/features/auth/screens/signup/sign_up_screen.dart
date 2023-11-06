@@ -1,11 +1,11 @@
 import 'package:fitnesstracker/source/constants/size.dart';
-import 'package:fitnesstracker/source/features/auth/screens/login/login_footer_widget.dart';
-import 'package:fitnesstracker/source/features/auth/screens/login/login_form_widget.dart';
-import 'package:fitnesstracker/source/features/auth/screens/login/login_header_widget.dart';
+import 'package:fitnesstracker/source/features/auth/screens/signup/sign_up_footer_widget.dart';
+import 'package:fitnesstracker/source/features/auth/screens/signup/sign_up_header_widget.dart';
+import 'package:fitnesstracker/source/features/auth/screens/signup/signup_form_widget.dart';
 import 'package:flutter/material.dart';
 
-class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+class SignUpScreen extends StatelessWidget {
+  const SignUpScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -19,9 +19,9 @@ class LoginScreen extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                LoginHeaderWidget(hight: hight),
-                const LoginForm(),
-                const LoginFooterWidget()
+                SignUpHeaderWidget(height: hight),
+                const SignUpForm(),
+                const SignUpFooterWidget(),
               ],
             ),
           ),

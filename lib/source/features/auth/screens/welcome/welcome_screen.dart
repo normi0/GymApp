@@ -6,6 +6,7 @@ import 'package:fitnesstracker/source/constants/image_strings.dart';
 import 'package:fitnesstracker/source/constants/size.dart';
 import 'package:fitnesstracker/source/constants/text_string.dart';
 import 'package:fitnesstracker/source/features/auth/screens/login/login_screen.dart';
+import 'package:fitnesstracker/source/features/auth/screens/signup/sign_up_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -70,7 +71,7 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                         Expanded(
                           child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () => Get.to(() => const SignUpScreen()),
                             child: Text(
                               gSigneUp.toUpperCase(),
                             ),
