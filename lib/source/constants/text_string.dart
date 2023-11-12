@@ -8,6 +8,7 @@ const String gPassword = "Password";
 const String gForgetPassword = "Forget Password";
 const String gSignInWithGoogle = "Sign-In With Google";
 const String gSignInWithFacebook = "Sign-In With Facebook";
+const String gNext = "Next";
 //splash screen text
 const String gAppNAme = "FITnesstTracker";
 const String gAppTagLine =
@@ -42,3 +43,9 @@ const String gDontHaveAccount = " Don't have an Account ? ";
 //sign up text
 const String gSignUpTitle = "Get Ready!";
 const String gSignUpSubtitle = " Create Your Profile To Start Your Journey.";
+//forgot password text
+const String gForgotPasswordTitle = " Make Selection!";
+const String gForgotPasswordSubtitle =
+    " Select One Of The options to reset your password";
+const String gResetViaMail = " Reset via E-mail Verification";
+const String gResetViaPhone = " Reset via Phone Verification ";

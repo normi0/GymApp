@@ -58,6 +58,7 @@ flutter:
     - assets/images/login_image/ 
     - assets/logos/
     - assets/images/sign_up_image/ 
+    - assets/images/forgot_password/
   # fonts:
   #   - family: Schyler
   #     fonts:

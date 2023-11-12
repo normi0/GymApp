@@ -1,31 +1,46 @@
-import 'package:fitnesstracker/source/constants/image_strings.dart';
-import 'package:fitnesstracker/source/constants/text_string.dart';
 import 'package:flutter/material.dart';
 
-class LoginHeaderWidget extends StatelessWidget {
-  const LoginHeaderWidget({
+class FormHeaderWidget extends StatelessWidget {
+  const FormHeaderWidget({
     super.key,
-    required this.hight,
+    this.imageColor,
+    this.imageHight = 0.2,
+    this.heightBetween,
+    required this.image,
+    required this.title,
+    required this.subtitle,
+    this.crossAxisAlighnment = CrossAxisAlignment.start,
+    this.textAlign,
   });
-
-  final double hight;
+  final Color? imageColor;
+  final double imageHight;
+  final double? heightBetween;
+  final String image, title, subtitle;
+  final CrossAxisAlignment crossAxisAlighnment;
+  final TextAlign? textAlign;
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
+      crossAxisAlignment: crossAxisAlighnment,
       children: [
         Image(
-          image: const AssetImage(gLoginImage),
-          height: hight * 0.25,
+          image: AssetImage(image),
+          color: imageColor,
+          height: size.height * imageHight,
+        ),
+        SizedBox(
+          height: heightBetween,
         ),
         Text(
-          gLoginTitle,
+          title,
           style: Theme.of(context).textTheme.headlineLarge,
         ),
-        const Text(
-          gLoginSubtitle,
-          // style: Theme.of(context).textTheme.headlineSmall,
+        Text(
+          subtitle,
+          textAlign: textAlign,
+          style: Theme.of(context).textTheme.bodyLarge,
         ),
       ],
     );

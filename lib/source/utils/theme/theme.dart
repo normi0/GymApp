@@ -1,5 +1,6 @@
 import 'package:fitnesstracker/source/utils/theme/widgets_themes/elevated_button_theme.dart';
 import 'package:fitnesstracker/source/utils/theme/widgets_themes/outlined_button_theme.dart';
+import 'package:fitnesstracker/source/utils/theme/widgets_themes/text_field_theme.dart';
 import 'package:fitnesstracker/source/utils/theme/widgets_themes/text_theme.dart';
 import 'package:flutter/material.dart';
 
@@ -7,16 +8,18 @@ class AppTheme {
   AppTheme._();
   static ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
-    textTheme: TtextTheme.lightTextTheme,
+    textTheme: GtextTheme.lighGTextTheme,
     outlinedButtonTheme: GOutLinedButtonTheme.lightOutLinedButtonTheme,
     elevatedButtonTheme: GElevatedButtonTheme.lightElevatedButtonTheme,
+    inputDecorationTheme: GTextFormFieldTheme.lightInputDecorationTheme,
   );
 
   static ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,
-    textTheme: TtextTheme.darckTextTheme,
+    textTheme: GtextTheme.darckGTextTheme,
     outlinedButtonTheme: GOutLinedButtonTheme.darkOutLinedButtonTheme,
     elevatedButtonTheme: GElevatedButtonTheme.darkElevatedButtonTheme,
+    inputDecorationTheme: GTextFormFieldTheme.darkInputDecorationTheme,
   );
 }
 //i can need it after 

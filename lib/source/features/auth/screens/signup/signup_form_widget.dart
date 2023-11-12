@@ -14,56 +14,36 @@ class SignUpForm extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           TextFormField(
-            decoration: InputDecoration(
-              prefix: const Icon(Icons.person_outline_outlined),
-              labelText: gFullName,
-              hintText: gFullName,
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(9),
-              ),
+            decoration: const InputDecoration(
+              label: Text(gFullName),
+              prefixIcon: Icon(Icons.person_outline_outlined),
             ),
           ),
           const SizedBox(
             height: gFormHight - 20,
           ),
           TextFormField(
-            decoration: InputDecoration(
-              prefix: const Icon(Icons.email_outlined),
-              labelText: gEmail,
-              hintText: gEmail,
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(9),
-              ),
+            decoration: const InputDecoration(
+              label: Text(gEmail),
+              prefixIcon: Icon(Icons.email_outlined),
             ),
           ),
           const SizedBox(
             height: gFormHight - 20,
           ),
           TextFormField(
-            decoration: InputDecoration(
-              prefix: const Icon(Icons.phone_android_outlined),
-              labelText: gPhoneNumber,
-              hintText: gPhoneNumber,
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(9),
-              ),
+            decoration: const InputDecoration(
+              label: Text(gPhoneNumber),
+              prefixIcon: Icon(Icons.phone_android_outlined),
             ),
           ),
           const SizedBox(
             height: gFormHight - 20,
           ),
           TextFormField(
-            decoration: InputDecoration(
-              prefix: const Icon(Icons.fingerprint),
-              labelText: gPassword,
-              hintText: gPassword,
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(9),
-              ),
-              suffixIcon: const IconButton(
-                onPressed: null,
-                icon: Icon(Icons.remove_red_eye),
-              ),
+            decoration: const InputDecoration(
+              label: Text(gPassword),
+              prefixIcon: Icon(Icons.fingerprint_outlined),
             ),
           ),
           const SizedBox(
